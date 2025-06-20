@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background: #ff4d4d;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff8d2;
+}
+
+.order-btn {
+  background: #fff;
+  color: #ff4d4d;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.order-btn:hover {
+  background: #fff8d2;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x600/?food') no-repeat center center/cover;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero input {
+  width: 50%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.trending {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.trending h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ff4d4d;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.food-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  padding: 1rem;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+.food-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.food-card h3 {
+  margin: 1rem 0 0.5rem;
+  color: #ff4d4d;
+}
+
+.food-card button {
+  background: #ff4d4d;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 20px;
+  margin-top: 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.food-card button:hover {
+  background: #e03d3d;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f8f8f8;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
